@@ -37,4 +37,4 @@ GeoSpark ecosystem has around 10K downloads per month.
 
 ST_Contains of geospark implementation doesn't work for Multipolygon. In this version, a new function ST_Covers added.
 
-This function will take two strings as input and convert it to geometry . 
+This function will take two strings as input and convert it to geometry and polygon analysis is done. Same functionality as ST_Covers. But this one works for multipolygon. https://github.com/Debadarsini/geospark-st-covers/blob/20a7c4119c5c40d2a165799d4c42bdfb670057f6/sql/src/main/scala/org/apache/spark/sql/geosparksql/expressions/Predicates.scala#L88

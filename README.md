@@ -34,3 +34,7 @@ GeoSpark is a cluster computing system for processing large-scale spatial data. 
 GeoSpark ecosystem has around 10K downloads per month.
 
 <img src="docs/image/geospark-stat.png" width="500"/>
+
+ST_Contains of geospark implementation doesn't work for Multipolygon. In this version, a new function ST_Covers added.
+
+This function will take two strings as input and convert it to geometry . 
